@@ -96,7 +96,7 @@ def bfs(maze, start, end):
     while len(in_check) > 0:
         x, y = in_check.pop(0)
         if x == end[0] and y == end[1]:
-            return True # 도착했을때
+            return True # 비어있을때
         nodes = getnodes(x, y)
         for nodex, nodey in nodes:
             if maze[nodex][nodey] == TILE_ROAD and (nodex, nodey) not in visited:

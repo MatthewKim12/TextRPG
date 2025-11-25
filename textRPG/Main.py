@@ -219,6 +219,3 @@ def main():
                 player.move(dx, dy)
 
 main()
-# player = Player.Player((0, 0), MAX_HP, MAX_HP, DEFEND_RANGE, ATTACK_RANGE)
-# inventory = Inventory.Inventory(0, [2], [3])
-# battle(player, inventory)
